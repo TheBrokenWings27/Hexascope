@@ -9,22 +9,42 @@
     <link rel="stylesheet" href="styles\styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="photos/Symbol.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 
 
 
 <body>
+    <script src="script/script.js"></script>
+    <!--
+
+        header
+    -->
     <header class="header">
+
         <div class="container">
+            <a href="#" class="logo">
+                <img src="photos/Odyssey.png" alt="Odyssey logo" width="100">
+            </a>
             <h1>Hexanews</h1>
             <p>A plog Website For the National Higher School Of Nanosciences and Nanotechnology Students, "There's plenty of room at the bottom"</p>
             <nav class="nav">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="articles.html">Science Articles</a></li>
-                    <li><a href="news.html">Nanotechnology News</a></li>
+                <div class="nav-top">
+                    <a href="#" class="logo">
+                        <img src="photos/Odyssey.png" alt="Odyssey logo" width="100">
+                    </a>
+                    <button class="nav-close-but" aria-label="close menu" data-nav-toggler >
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                </div>
+                <ul class="nav-list">
+                    <li><a href="home.html" class="nav-link-1" data-nav-toggler>Home</a></li>
+                    <li><a href="gallery.html" class="nav-link-2" data-nav-toggler>Gallery</a></li>
+                    <li><a href="articles.html" class="nav-link-3" data-nav-toggler>Science Articles</a></li>
+                    <li><a href="news.html" class="nav-link-4" data-nav-toggler>Nanotechnology News</a></li>
                 </ul>
             </nav>
         </div>

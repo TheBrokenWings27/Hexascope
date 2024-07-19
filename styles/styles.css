@@ -1,4 +1,15 @@
-/* Reset some basic elements for better cross-browser compatibility */
+/*
+    --color-1: #eefdfe
+    --color-2: #87FFD4
+    --color-3: #08d2cd
+    --color-4: #246083
+    --color-5: #0f2841
+    --color-6: #0f2841
+    --gardian-1: linear-gradient(90deg, var(--color-1), var(--color-2))
+*/
+html{
+    scroll-behavior: smooth;
+}
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -10,6 +21,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background-color: transparent; }
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 200px;
 }
 
 /* Container for centralizing content */
@@ -23,7 +40,7 @@ body {
 /* Header styles */
 .header {
     background-color: #333;
-    color: white;
+    color: #ffffff;
     padding: 20px 0;
 }
 
