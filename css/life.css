@@ -72,6 +72,8 @@ nav a{
   align-items: center;
   color: black;
   font-size: large;
+  border-radius: 1000px;
+  transition: background-color 0.3s ease;
 }
 
 nav a:hover{
@@ -120,6 +122,12 @@ nav li:first-child{
   margin-bottom: 20px;
   
 }
+.separator {
+border: none;
+  height: 20px;
+  background-color: #007bff; /* Color of the line */
+  margin: 20px 0;
+}
 .dropepage {
 margin: 40px;
 display: flex;
@@ -142,65 +150,80 @@ background-color: aquamarine;
   margin-bottom: 20px;
   margin-top: 30px;
 }
+.separator {
+border: none;
+height: 5px;
+background-color: #0f2841; /* Color of the line */
+margin: 20px 0; /* Space around the line */
+border-radius: 20px;
+}
 
+.news h1 {
+text-align: center;
 
-/* 
-   FOOTER
-*/
-
-.footer {
-background-color: #eefdfe; /* Example background color */
-padding: 20px 0; /* Example padding */
-border-radius: 8px;
-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}.footer {
+  background-color: #eefdfe; /* Example background color */
+  padding: 20px 0; /* Example padding */
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 
 .container {
-display: flex;
-justify-content: space-between; /* Distribute space between the two sections */
-align-items: center; /* Align items vertically centered */
-max-width: 1200px; /* Maximum width of the container */
-margin: 0 auto; /* Center the container horizontally */
-padding: 0 20px; /* Example padding */
-color: #000;
+  display: flex;
+  justify-content: space-between; /* Distribute space between the two sections */
+  align-items: center; /* Align items vertically centered */
+  max-width: 1200px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 20px; /* Example padding */
+  color: #000;
 }
 
 .footer-section {
-flex: 1; /* Flexibly grow to take up available space */
+  flex: 1; /* Flexibly grow to take up available space */
 }
 
 .footer-section h3 {
-text-align: center; /* Left align text */
+  text-align: center; /* Left align text */
 }
 
 .footer-section p {
-text-align: center;
-margin-right: 0px; /* Left align text */
+  text-align: center;
+  margin-right: 0px; /* Left align text */
 }
 .icons {
 text-align: center;
 }
 .social-icon {
-margin-left: 15px; /* Spacing between icons */
-color: #246083; /* Default icon color */
-text-decoration: none; /* Remove underline from links */
-font-size: 20px; /* Icon size */
+  margin-left: 15px; /* Spacing between icons */
+  color: #246083; /* Default icon color */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 20px; /* Icon size */
 }
 
 .social-icon:hover {
-color: #000; /* Change color on hover */
+  color: #000; /* Change color on hover */
 }
-@media(max-width: 800px){
-  .hideOnMobile{
-    display: none;
+  @media(max-width: 800px){
+    .hideOnMobile{
+      display: none;
+    }
+    .menu-button{
+      display: block;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .main {
+      margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    }
   }
-  .menu-button{
-    display: block;
+  @media(max-width: 400px){
+    .sidebar{
+      width: 100%;
+    }
   }
-}
-@media(max-width: 400px){
-  .sidebar{
-    width: 100%;
-  }
-}
