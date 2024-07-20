@@ -112,7 +112,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     border-radius: 8px;
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
     align-items: center;
     margin-top: 20px;
     margin-left: 50px;
@@ -120,10 +120,12 @@
     margin-bottom: 20px;
     
 }
-.child {
+.dropepage {
   margin: 40px;
   display: flex;
   background-color: blue;
+  display: flex;
+  flex-direction: column;
 
 }
 .texth {
@@ -142,7 +144,9 @@ background-color: aquamarine;
 }
 
 
-
+/* 
+     FOOTER
+*/
 
 .footer {
   background-color: #eefdfe; /* Example background color */
@@ -166,12 +170,26 @@ background-color: aquamarine;
   flex: 1; /* Flexibly grow to take up available space */
 }
 
-.footer-section.left {
-  text-align: left; /* Left align text */
+.footer-section h3 {
+  text-align: center; /* Left align text */
 }
 
-.footer-section.right {
-  text-align: right; /* Right align text */
+.footer-section p {
+  text-align: center;
+  margin-right: 0px; /* Left align text */
+}
+.icons {
+text-align: center;
+}
+.social-icon {
+  margin-left: 15px; /* Spacing between icons */
+  color: #246083; /* Default icon color */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 20px; /* Icon size */
+}
+
+.social-icon:hover {
+  color: #000; /* Change color on hover */
 }
   @media(max-width: 800px){
     .hideOnMobile{
