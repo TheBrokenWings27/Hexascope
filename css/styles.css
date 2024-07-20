@@ -72,6 +72,8 @@
     align-items: center;
     color: black;
     font-size: large;
+    border-radius: 1000px;
+    transition: background-color 0.3s ease;
   }
  
   nav a:hover{
@@ -119,6 +121,12 @@
     margin-right: 50px;
     margin-bottom: 20px;
     
+}
+.separator {
+  border: none;
+    height: 20px;
+    background-color: #007bff; /* Color of the line */
+    margin: 20px 0;
 }
 .dropepage {
   margin: 40px;
