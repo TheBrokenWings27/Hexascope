@@ -250,7 +250,7 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url('photos/pole.jpg');
+  background-image: url('pole.jpg');
 }
 .card[for="c2"] {
   background-image: url('118210475_4310342845703881_3567624425236315629_n.jpg');
