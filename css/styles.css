@@ -25,7 +25,7 @@
     background: linear-gradient(15deg, #0D1B26, #246083);
     background-size: cover;
     justify-content: center;
-            align-items: center;
+    align-items: center;
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Cairo', sans-serif;
@@ -49,6 +49,7 @@
         background-position: 0% 50%;
     }
 }
+
   nav{
     background-color: #eefdfe;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -83,6 +84,7 @@
   nav li:first-child{
     margin-right: auto;
   }
+  
   .sidebar{
     position: fixed;
     top: 0; 
@@ -107,61 +109,89 @@
   .menu-button{
     display: none;
   }
+
+
+
+  /*         Main
+  */
+
   .main {
     padding: 20px;
     background-color: #eefdfe; 
     max-width: 2000px; /* Control the maximum width */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     border-radius: 8px;
-    display: flex;
-    flex-direction: column;
+    
     align-items: center;
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
-    
 }
-.separator {
-  border: none;
-    height: 20px;
-    background-color: #007bff; /* Color of the line */
-    margin: 20px 0;
-}
+
+
+
+
 .dropepage {
   margin: 40px;
   display: flex;
   background-color: blue;
-  display: flex;
+  align-items: center;
   flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+}
+.Text-drop {
+  background: linear-gradient(15deg, #0D1B26, #246083);
+  color: #eefdfe;
+  padding: 20px; /* Add padding for better spacing */
+  text-align: center;
+  border-radius: 8px;
+}
+.Text-drop h3 {
+  margin: 0;/* Left align text */
+ 
+}
 
+.Img-drop img{
+  max-width: 100%; /* Make sure the image scales with the container */
+  height: auto;
+  border-radius: 8px;
 }
-.texth {
-background-color: aquamarine;
+.Img-drop p {
+  font-size: small;
+  margin-bottom: 20px;
+  text-align: center;
 }
-.main h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: 246083;
-}
-.main p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
+  
+
 .separator {
   border: none;
   height: 5px;
-  background-color: #0f2841; /* Color of the line */
-  margin: 20px 0; /* Space around the line */
+  background-color: #0f2841; 
+  margin: 20px 0; 
   border-radius: 20px;
 }
+
+
+/*    NEWS
+
+
+*/
+
 
 .news h1 {
   text-align: center;
 
 }
+
+
+/* Activities
+
+
+*/
+
 .activities h1{
 text-align: center;
 }
@@ -261,9 +291,12 @@ input:checked + label .description {
 .card[for="c4"] {
   background-image: url('school.jpeg');
 }
+
+
 /* 
      FOOTER
 */
+
 
 .footer {
   background-color: #eefdfe; /* Example background color */
@@ -288,7 +321,7 @@ input:checked + label .description {
 }
 
 .footer-section h3 {
-  text-align: center; /* Left align text */
+  text-align: center;/* Left align text */
 }
 
 .footer-section p {
