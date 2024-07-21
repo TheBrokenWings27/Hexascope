@@ -259,7 +259,7 @@ input:checked + label .description {
   background-image: url('/Users/sid/Documents/Hexascope/photos/banner-image-1.JPG');
 }
 .card[for="c4"] {
-  background-image: url('Hexascope/photos/school.jpeg');
+  background-image: url('school.jpeg');
 }
 /* 
      FOOTER
