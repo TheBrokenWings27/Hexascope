@@ -250,16 +250,16 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url('/Users/sid/Desktop/blog/photos/pole.jpg');
+  background-image: url('/Users/sid/Documents/Hexascope/photos/pole.jpg');
 }
 .card[for="c2"] {
-  background-image: url('/Users/sid/Desktop/blog/photos/118210475_4310342845703881_3567624425236315629_n.jpg');
+  background-image: url('/Users/sid/Documents/Hexascope/photos/118210475_4310342845703881_3567624425236315629_n.jpg');
 }
 .card[for="c3"] {
-  background-image: url('/Users/sid/Desktop/blog/photos/banner-image-1.JPG');
+  background-image: url('/Users/sid/Documents/Hexascope/photos/banner-image-1.JPG');
 }
 .card[for="c4"] {
-  background-image: url('/Users/sid/Desktop/blog/photos/school.jpeg');
+  background-image: url('/Users/sid/Documents/Hexascope/photos/school.jpeg');
 }
 /* 
      FOOTER
