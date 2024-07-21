@@ -256,7 +256,7 @@ input:checked + label .description {
   background-image: url('/Users/sid/Documents/Hexascope/photos/118210475_4310342845703881_3567624425236315629_n.jpg');
 }
 .card[for="c3"] {
-  background-image: url('/Users/sid/Documents/Hexascope/photos/banner-image-1.JPG');
+  background-image: url('Hexascope/photos/banner-image-1.JPG');
 }
 .card[for="c4"] {
   background-image: url('school.jpeg');
